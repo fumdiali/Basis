@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Basis</string>
+    <string name="main_about">About &amp; Help</string>
+    <string name="main_web">Web Search</string>
+    <string name="app_para">Knowledge should be free.\n
+                           Start from the basics..\n
+                           ..or dive into the advanced..
+    </string>
+    <string name="basic">Basics</string>
+    <string name="advance">Advanced</string>
+    <string name="mathact">Basic Math</string>
+    <string name="math_quiz">Math Quiz</string>
+</resources>
