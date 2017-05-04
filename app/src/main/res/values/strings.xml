@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Basis</string>
+    <string name="appversion">
+        Powered by base111\nVersion 1.0
+    </string>
     <string name="main_about">About &amp; Help</string>
     <string name="main_web">Web Search</string>
     <string name="app_para">Knowledge should be free.\n
@@ -10,4 +13,11 @@
     <string name="advance">Advanced</string>
     <string name="mathact">Basic Math</string>
     <string name="math_quiz">Math Quiz</string>
+    <string name="questionCount"><b>Question 1</b></string>
+    <string name="mathQ1">What is 1 + 1?</string>
+    <string name="mathQ1a"> 11 </string>
+    <string name="mathQ1b"> 1 </string>
+    <string name="mathQ1c"> 2 </string>
+
+    <string name="mathQ1Next">Next</string>
 </resources>

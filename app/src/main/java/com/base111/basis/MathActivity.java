@@ -16,9 +16,9 @@ import android.widget.Toast;
 public class MathActivity extends AppCompatActivity {
 
     ListView listView;
-    String[] topics = {"Math - Overview", "Math - History of Math",
-            "Math - Basic Syntax", "Math - Operators",
-            "Math - Operations", "Maths - Mnemonics"};
+    String[] topics = {"Math - Overview", "History of Math",
+            "Math - Basic Syntax", "Math - Operators & Operations",
+            "Maths - Mnemonics"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,8 +53,8 @@ public class MathActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.mathquiz:
-                //
-                //startActivity(mathquiz);
+                Intent mathquiz = new Intent(getApplicationContext(),MathQuiz.class);
+                startActivity(mathquiz);
                 return true;
 
             default:

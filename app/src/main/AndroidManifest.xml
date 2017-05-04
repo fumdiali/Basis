@@ -23,11 +23,15 @@
             android:name=".MathActivity"
             android:label="@string/mathact"
             android:parentActivityName=".BasicActivity" />
-
         <activity
             android:name=".AboutMain"
             android:label="@string/main_about"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".MathQuiz"
+            android:label="@string/math_quiz"
+            android:parentActivityName=".MathActivity"></activity>
     </application>
 
 </manifest>
